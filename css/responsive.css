@@ -1,0 +1,37 @@
+/* tablet view */
+@media screen and (max-width: 850px) {
+  
+}
+/* end tablet view */
+
+/* smartphone view */
+@media screen and (max-width: 428px) {
+
+  /* nav */
+  nav .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.3);
+    transform: translateY(-100%);
+  }
+
+  nav .menu ul {
+    padding: 1em;
+    background-color: var(--basic);
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateY(80px);
+  }
+
+  nav .hamBtn {
+    display: flex;
+  }
+
+}
+
+
+
+/* end smartphone view */
